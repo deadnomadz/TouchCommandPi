@@ -1,0 +1,21 @@
+#Example configuration for a simple menu in YAML format
+#This file defines a menu with commands that can be executed in a terminal
+
+---
+- name: "sudo apt update"
+  label: "Update Packages"
+  color: "#4a90e2"
+  icon: "reset"
+  command: "sudo apt update"
+
+- name: "sudo ifconfig"
+  label: "Show Network"
+  color: "#7b8d93"
+  icon: "network"
+  command: "sudo ifconfig"
+
+- name: "sudo apt -y upgrade"
+  label: "Upgrade Packages"
+  color: "#d94f4f"
+  icon: "elevator.up"
+  command: "sudo apt -y upgrade"
