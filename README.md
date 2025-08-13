@@ -41,7 +41,7 @@ GREAT FOR TOUCH SCREENS!
    ```sh
    python TouchCommandPi.py fs
    ```
-
+   UNZIP ICO.ZIP FIRST!
 ---
 
 ## Configuration
